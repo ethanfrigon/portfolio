@@ -12,65 +12,48 @@
   <script src="scripts/main.js"></script>
 </head>
 <body>
-  <section class="about"></section>
-  <section class="projects"></section>
-    <article class="project">
-      <h2 class="app-title"> DownTheBlock</h2>
-      <p class="app-description">
-        DownTheBlock connects you with your neighborhood and provides a convenient way of staying informed. Whether you lost your pet, are throwing an event, or want to be aware of the latest criminal activity around you, DownTheBlock is here to help. Join today to stay up-to-date on everything happening close to home as well as in the broader community!
-      </p>
-      <a class="mockup" href="https://down-the-block.herokuapp.com" target="_blank">
-        <img src="images/downtheblock-mockup.png" alt="downtheblock mockup"/>
-      </a>
-      <div class="tech-stack-section">
-        <header class="tech-stack">Tech Stack:</header>
-        <div class="tech-stack-lists">
-            <ul class="skill-list">
-                <li><i class="devicon-react-original colored"></i>
-                  React/Redux
-                </li>
-                <li><i class="devicon-javascript-plain colored"></i>
-                  Javascript
-                </li>
-                <li>
-                  <img class="svg-icon" src="./images/socket-io.svg" alt="socket svg"/>
-                  Socket.io
-                </li>
-                <li><i class="devicon-nodejs-plain colored"></i>
-                  Node
-                </li>
-                <li><i class="devicon-express-original colored"></i>
-                  Express
-                </li>
-                <li><i class="devicon-mongodb-plain colored"></i>
-                  MongoDB
-                </li>
-                <li> <i class="devicon-html5-plain colored"></i>
-                  HTML5
-                </li>
-                <li><i class="devicon-sass-original colored"></i>
-                  Sass
-                </li>
-              </ul>
+  <section class="introduction">
+      <nav class="navbar">  
+        <a class="nav-link" href="#about">About</a> 
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    <div class="introduction-name">
+      <h1>Ethan Frigon</h1>
+    </div>
+  </section>
+  <span class="anchor" id="about"></span> 
+  <section class="about" tabindex="0">
+
+  </section>
+  <span class="anchor" id="projects"></span> 
+  <section class="projects">
+    <article class="project" tabindex="0">
+      <div class="project-container">
+        <h2 class="app-title"> DownTheBlock</h2>
+        <div class="mockup-container">
+          <a class="mockup" href="https://down-the-block.herokuapp.com" target="_blank">
+            <img src="images/downtheblock-mockup.png" alt="downtheblock mockup"/>
+          </a>
         </div>
-    </article>
-    <article class="project">
-        <h2 class="app-title"> SpanishX </h2>
-        <p class="app-description">
-          SpanishX provides a simple and intuitive Spanish language learning experience based on the spaced repetition learning method. It asks you to define a word, then provides feedback and shows you the next word based on your previous answer history. Come to learn Spanish, stay for the GIFs!
-        </p>
-        <a class="mockup" href="https://ethan-vb-client.herokuapp.com/" target="_blank">
-          <img src="images/vacation-brain-mockup.png" alt="vacationbrain mockup"/>
-        </a>
-        <div class="tech-stack-section">
-          <header class="tech-stack">Tech Stack:</header>
-          <div class="tech-stack-lists">
+        <div class= "info-container">
+          <div class="description-container">
+            <p class="app-description">
+              DownTheBlock connects you with your neighborhood and provides a convenient way of staying informed. Whether you lost your pet, are throwing an event, or want to be aware of the latest criminal activity around you, DownTheBlock is here to help. Join today to stay up-to-date on everything happening close to home as well as in the broader community!
+            </p>
+          </div>
+          <div class="tech-stack-section">
+            <div class="tech-stack-lists">
               <ul class="skill-list">
                   <li><i class="devicon-react-original colored"></i>
                     React/Redux
                   </li>
                   <li><i class="devicon-javascript-plain colored"></i>
                     Javascript
+                  </li>
+                  <li>
+                    <img class="svg-icon" src="./images/socket-io.svg" alt="socket svg"/>
+                    Socket.io
                   </li>
                   <li><i class="devicon-nodejs-plain colored"></i>
                     Node
@@ -84,20 +67,70 @@
                   <li> <i class="devicon-html5-plain colored"></i>
                     HTML5
                   </li>
+                  <li><i class="devicon-sass-original colored"></i>
+                    Sass
+                  </li>
                 </ul>
+            </div>
           </div>
-      </article>
-      <article class="project">
-          <h2 class="app-title"> VacationBrain </h2>
-          <p class="app-description">
-            Can't figure out where to go on your next trip? Check out VacationBrain. You can easily add a trip to get recommendation from the VacationBrain community. Have a great idea of your own? Recommend it to other users!
-          </p>
+        </div>
+    </article>
+    <article class="project" tabindex="0">
+      <div class="project-container">
+        <h2 class="app-title"> SpanishX </h2>
+        <div class="mockup-container">
           <a class="mockup" href="https://ethan-vb-client.herokuapp.com/" target="_blank">
             <img src="images/vacation-brain-mockup.png" alt="vacationbrain mockup"/>
           </a>
+        </div>
+        <div class= "info-container">
+          <div class="description-container">
+            <p class="app-description">
+              SpanishX provides a simple and intuitive Spanish language learning experience based on the spaced repetition learning method. It asks you to define a word, then provides feedback and shows you the next word based on your previous answer history. Come to learn Spanish, stay for the GIFs!
+            </p>
+          </div>
           <div class="tech-stack-section">
-            <header class="tech-stack">Tech Stack:</header>
             <div class="tech-stack-lists">
+              <ul class="skill-list">
+                <li><i class="devicon-react-original colored"></i>
+                  React/Redux
+                </li>
+                <li><i class="devicon-javascript-plain colored"></i>
+                  Javascript
+                </li>
+                <li><i class="devicon-nodejs-plain colored"></i>
+                  Node
+                </li>
+                <li><i class="devicon-express-original colored"></i>
+                  Express
+                </li>
+                <li><i class="devicon-mongodb-plain colored"></i>
+                  MongoDB
+                </li>
+                <li> <i class="devicon-html5-plain colored"></i>
+                  HTML5
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="project" tabindex="0">
+        <div class="project-container">
+          <h2 class="app-title"> VacationBrain </h2>
+          <div class="mockup-container">
+            <a class="mockup" href="https://ethan-vb-client.herokuapp.com/" target="_blank">
+              <img src="images/vacation-brain-mockup.png" alt="vacationbrain mockup"/>
+            </a>
+          </div>
+          <div class= "info-container">
+            <div class="description-container">
+              <p class="app-description">
+                Can't figure out where to go on your next trip? Check out VacationBrain. You can easily add a trip to get recommendation from the VacationBrain community. Have a great idea of your own? Recommend it to other users!
+              </p>
+            </div>              
+            <div class="tech-stack-section">
+              <div class="tech-stack-lists">
                 <ul class="skill-list">
                     <li><i class="devicon-react-original colored"></i>
                       React/Redux
@@ -118,9 +151,13 @@
                       HTML5
                     </li>
                   </ul>
+              </div>
             </div>
+          </div>
         </article>
-      <section class="links">
+      </section>
+      <span class="anchor" id="contact"></span> 
+      <section class="contact">
         <a href="Thinkful Resume.pdf" target="_blank">
           <i class="far fa-file"></i> 
           Resume

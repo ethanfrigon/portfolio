@@ -1,3 +1,123 @@
 *{
   font-family: 'Lato', sans-serif
 }
+
+/* html {
+  background-image: url('../images/mt-wilson-background5.jpg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 50vw;
+  background-size: cover;
+
+} */
+
+.introduction{
+  background-image: url('../images/mt-wilson-background5.jpg');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100vw;
+  height: 50vw;
+  background-size: cover;
+  margin: 0 auto
+}
+
+.introduction-name{
+  /* margin: 0 auto; */
+  /* margin-left: 0 ; */
+  margin-right: 10px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 250px;
+  float: right;
+  margin-top: 100px;
+  padding: 30px
+
+  /* transform: translate(-50%, -50%); */
+}
+
+nav{
+  float: right;
+}
+
+.nav-link {
+  text-align: left;
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+  /* padding-top: 10px */
+}
+
+.nav-link:hover, .nav-link:focus {
+  text-decoration: underline
+}
+
+
+h1 {
+  /* margin: 20px auto; */
+  border: white 2px solid;
+  padding: 30px;
+  margin: 0px
+}
+
+.project {
+  /* border: 1px black solid; */
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px gray
+}
+
+.project:hover, .project:focus {
+  box-shadow: 0 0 10px green;
+}
+
+.project-container{
+  /* padding-left: 3px;
+  padding-right: 3px */
+  padding: 7px;
+  margin-top: 25px;
+}
+
+h2 {
+  text-align: center
+}
+
+h2:focus, h2:hover {
+  color: grey
+}
+
+li {
+  list-style: none;
+  padding-bottom: 5px
+}
+
+.mockup{
+  width: fit-content;
+}
+
+.mockup-container {
+  border-bottom: 1px gray solid
+}
+
+.mockup img {
+  width: 460px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 7px
+}
+
+.info-container {
+  display: flex
+}
+
+.description-container {
+  flex: 1;
+  width: 350px;
+  padding-left: 20px
+}
+
+.tech-stack-section {
+  flex: 1;
+  width: 350px;
+  margin-left: 20px
+}
