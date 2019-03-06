@@ -11,11 +11,16 @@
 
 } */
 
+html, body {
+  height: 100%;
+  margin: 0
+}
+
 .introduction{
-  background-image: url('../images/mt-wilson-background5.jpg');
+  background-image: url('../images/mt-wilson-background6.jpg');
   background-repeat: no-repeat;
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
   height: 50vw;
   background-size: cover;
   margin: 0 auto
@@ -36,16 +41,16 @@
   /* transform: translate(-50%, -50%); */
 }
 
-nav{
+nav {
   float: right;
+  padding-top: 10px
 }
 
 .nav-link {
   text-align: left;
   color: white;
   text-decoration: none;
-  padding-right: 10px;
-  /* padding-top: 10px */
+  padding-right: 18px;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -57,7 +62,8 @@ h1 {
   /* margin: 20px auto; */
   border: white 2px solid;
   padding: 30px;
-  margin: 0px
+  margin: 0px;
+  font-weight: normal
 }
 
 .project {
@@ -72,8 +78,6 @@ h1 {
 }
 
 .project-container{
-  /* padding-left: 3px;
-  padding-right: 3px */
   padding: 7px;
   margin-top: 25px;
 }
@@ -120,4 +124,32 @@ li {
   flex: 1;
   width: 350px;
   margin-left: 20px
+}
+
+.description-container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black
+}
+
+.description-container a:visited {
+  text-decoration: none;
+}
+
+.description-container a:hover {
+  color: gray;
+}
+
+span i {
+  padding-right: 3px
+}
+
+.contact {
+  margin: 0 auto;
+  text-align: center
+}
+
+.contact a {
+  display: inline-block;
+  margin: 0 auto
 }
