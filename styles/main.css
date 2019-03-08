@@ -67,7 +67,7 @@ h2, h3 {
 .about-container {
   max-width: 700px;
   margin: auto;
-  box-shadow: 0 0 10px #736448
+  box-shadow: 0 0 5px #736448
 }
 
 .about-container p {
@@ -221,7 +221,8 @@ li {
   }
 
   .description-container {
-    padding-left: 0px
+    padding-left: 3px;
+    padding-right: 3px
   }
   
   .tech-stack-section {
