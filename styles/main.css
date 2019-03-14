@@ -70,6 +70,10 @@ h2, h3 {
   box-shadow: 0 0 5px #736448
 }
 
+.about-container:hover, .about-container:focus {
+  box-shadow: 0 0 10px #736448
+}
+
 .about-container p {
   padding: 5px
 }
