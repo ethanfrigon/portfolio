@@ -15,18 +15,22 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <script src="scripts/main.js"></script>
+
 </head>
 <body>
   <section class="introduction">
-    <nav class="navbar">  
+    <nav id="navbar" class="navbar">  
       <a class="nav-link" href="#about">Who</a> 
       <a class="nav-link" href="#projects">What</a>
       <a class="nav-link" href="#contact">Where</a>
     </nav>
-    <!-- <div > -->
     <h1 class="introduction-name">Ethan Frigon</h1>
-    <!-- </div> -->
+    <!-- <h2 class="introduction-projects">See Projects</h2> -->
   </section>
   <span class="anchor" id="about"></span> 
   <section class="about">
@@ -42,6 +46,7 @@
     <article class="project" tabindex="0">
       <div class="project-container">
         <h3 class="app-title"> DownTheBlock</h3>
+        <p class="app-tagline">Your neighborhood is now at your fingertips...</p>
         <div class="mockup-container">
           <a class="mockup" href="https://down-the-block.herokuapp.com" target="_blank">
             <img src="images/downtheblock-mockup.png" alt="downtheblock mockup"/>
@@ -52,15 +57,27 @@
             <p class="app-description">
               DownTheBlock connects you with your neighborhood and provides a convenient way of staying informed. Whether you lost your pet, are throwing an event, or want to be aware of the latest criminal activity around you, DownTheBlock is here to help. Join today to stay up-to-date on everything happening close to home as well as in the broader community!
             </p>
+          <div class="link-container">
+            <span class="app-link"> 
+              <a href="https://github.com/thinkful-ei26/Down-The-Block-Client" target="_blank">
+                <i class="fab fa-github"></i> View on Github
+              </a>
+            </span>
+            <span class="app-link"> 
+              <a href="https://down-the-block.herokuapp.com/" target="_blank">
+                <i class="fas fa-laptop"></i> View Live App
+              </a>
+            </span>
+          </div>
           </div>
           <div class="tech-stack-section">
             <div class="tech-stack-lists">
               <ul class="skill-list">
-                  <li class="repo-link">
+                  <!-- <li class="repo-link">
                     <a href="https://github.com/thinkful-ei26/Down-The-Block-Client" target="_blank">
                       <i class="fab fa-github"></i> Github Repo
                     </a>
-                  </li>
+                  </li> -->
                   <li><i class="devicon-react-original colored"></i>
                     React/Redux
                   </li>
@@ -95,6 +112,7 @@
     <article class="project" tabindex="0">
       <div class="project-container">
         <h3 class="app-title"> SpanishX </h3>
+        <p class="app-tagline">Have fun while learning Spanish!</p>
         <div class="mockup-container">
           <a class="mockup" href="https://spaced-repetition-codey-ethan.herokuapp.com/" target="_blank">
             <img src="images/vacation-brain-mockup.png" alt="SpanishX mockup"/>
@@ -105,15 +123,27 @@
             <p class="app-description">
               SpanishX provides a simple and intuitive Spanish language learning experience based on the spaced repetition learning method. It asks you to define a word, then provides feedback and shows you the next word based on your previous answer history. Come to learn Spanish, stay for the GIFs!
             </p>
+            <div class="link-container">
+              <span class="app-link"> 
+                <a href="https://github.com/thinkful-ei26/spaced-repetition-client-codey-ethan" target="_blank">
+                  <i class="fab fa-github"></i> View on Github
+                </a>
+              </span>
+              <span class="app-link"> 
+                <a href="https://spaced-repetition-codey-ethan.herokuapp.com/" target="_blank">
+                  <i class="fas fa-laptop"></i> View Live App
+                </a>
+              </span>
+            </div>
           </div>
           <div class="tech-stack-section">
             <div class="tech-stack-lists">
               <ul class="skill-list">
-                <li class="repo-link">
+                <!-- <li class="repo-link">
                     <a href="https://github.com/thinkful-ei26/spaced-repetition-client-codey-ethan" target="_blank">
                       <i class="fab fa-github"></i> Github Repo
                     </a>
-                </li>
+                </li> -->
                 <li><i class="devicon-react-original colored"></i>
                   React/Redux
                 </li>
@@ -141,6 +171,7 @@
       <article class="project" tabindex="0">
         <div class="project-container">
           <h3 class="app-title"> VacationBrain </h3>
+          <p class="app-tagline">Find your next great vacation destination!</p>
           <div class="mockup-container">
             <a class="mockup" href="https://ethan-vb-client.herokuapp.com/" target="_blank">
               <img src="images/vacation-brain-mockup.png" alt="vacationbrain mockup"/>
@@ -151,15 +182,22 @@
               <p class="app-description">
                 Can't figure out where to go on your next trip? Check out VacationBrain. You can easily add a trip and get recommendations from the VacationBrain community. Have a great idea of your own? Recommend it to other users!
               </p>
-            </div>              
+              <div class="link-container">
+                <span class="app-link"> 
+                  <a href="https://github.com/thinkful-ei26/ethan-vb-client" target="_blank">
+                    <i class="fab fa-github"></i> View on Github
+                  </a>
+                </span>
+                <span class="app-link"> 
+                  <a href="https://ethan-vb-client.herokuapp.com/" target="_blank">
+                    <i class="fas fa-laptop"></i> View Live App
+                  </a>
+                </span>
+              </div>   
+            </div>
             <div class="tech-stack-section">
               <div class="tech-stack-lists">
                 <ul class="skill-list">
-                  <li class="repo-link">
-                    <a href="https://github.com/thinkful-ei26/ethan-vb-client" target="_blank">
-                      <i class="fab fa-github"></i> Github Repo
-                    </a>
-                  </li>
                   <li><i class="devicon-react-original colored"></i>
                     React/Redux
                   </li>

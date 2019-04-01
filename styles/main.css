@@ -4,7 +4,12 @@
 
 html, body {
   height: 100%;
-  margin: 0
+  margin: 0;
+  font-size: 1.1em
+}
+
+html {
+  scroll-behavior: smooth
 }
 
 .introduction{
@@ -20,31 +25,62 @@ html, body {
 }
 
 .introduction-name{
-  margin-right: 10px;
+  /* margin-right: 10px; */
   text-align: center;
   color: white;
   width: 300px;
   height: 40px;
   float: right;
   margin-top: 100px;
+  margin-right: 300px;
   padding: 30px
 }
 
-nav {
+.introduction-projects{
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 40px;
   float: right;
-  padding-top: 10px
+  margin-top: 100px;
+  margin-right: 300px;
+  padding: 30px
+}
+
+.introduction-projects h2 {
+  border: white 2px solid;
+  padding: 30px;
+  margin: 0px;
+  font-weight: normal
+}
+ 
+/* nav {
+  float: right;
+  padding-top: 10px;
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .nav-link {
   text-align: left;
   color: white;
   text-decoration: none;
-  margin-right: 18px;
+  margin-right: 12px;
+  margin-left: 9px
 }
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: underline
 }
+
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
 
 section {
   margin-bottom: 50px
@@ -80,6 +116,10 @@ h2, h3 {
   padding: 5px
 }
 
+p, span, li {
+  line-height: 1.5em;
+}
+
 .projects {
   display: flex;
   flex-direction: column
@@ -94,6 +134,16 @@ h2, h3 {
 
 .project:hover, .project:focus {
   box-shadow: 0 0 10px #306DA7;
+}
+
+.app-title {
+  margin-bottom: 5px
+}
+
+.app-tagline {
+  text-align: center;
+  font-style: italic;
+  margin-top: 1px
 }
 
 li {
@@ -134,18 +184,35 @@ li {
   text-align: center
 }
 
-.repo-link a {
+.link-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px
+}
+
+.app-link {
+  flex: 1;
+  /* width: 100px; */
+  /* margin: auto; */
+  text-align: center
+}
+
+.app-link i {
+  font-size: 20px
+}
+
+.app-link a {
   text-decoration: none;
   font-weight: bold;
   color: black;
   text-align: center
 }
 
-.repo-link a:visited {
+.app-link a:visited {
   text-decoration: none;
 }
 
-.repo-link a:hover, .repo-link a:focus {
+.app-link a:hover, .app-link a:focus {
   color: #80828E;
 }
 
@@ -222,18 +289,23 @@ li {
     flex-direction: column
   }
 
+  .link-container {
+    flex-direction: column
+  }
+
+  .app-link {
+    margin: 5px;
+    text-align: left
+  }
+
   .description-container, .tech-stack-section {
     margin: auto;
-    text-align: center
+    text-align: left
   }
 
   .description-container {
     padding-left: 3px;
     padding-right: 3px
-  }
-  
-  .tech-stack-section {
-    text-align: center
   }
 
   .skill-list {
