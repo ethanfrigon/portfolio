@@ -25,7 +25,6 @@ html {
 }
 
 .introduction-name{
-  /* margin-right: 10px; */
   text-align: center;
   color: white;
   width: 300px;
@@ -53,11 +52,6 @@ html {
   margin: 0px;
   font-weight: normal
 }
- 
-/* nav {
-  float: right;
-  padding-top: 10px;
-} */
 
 nav {
   position: fixed;
@@ -73,6 +67,10 @@ nav {
   text-decoration: none;
   margin-right: 12px;
   margin-left: 9px
+}
+
+.where {
+  font-weight: bolder;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -193,7 +191,6 @@ li {
 .app-link {
   flex: 1;
   max-width: 250px;
-  /* margin: auto; */
   text-align: center
 }
 
