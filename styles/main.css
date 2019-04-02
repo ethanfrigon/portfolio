@@ -192,7 +192,7 @@ li {
 
 .app-link {
   flex: 1;
-  /* width: 100px; */
+  max-width: 250px;
   /* margin: auto; */
   text-align: center
 }
