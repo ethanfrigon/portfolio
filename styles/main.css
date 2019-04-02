@@ -77,8 +77,12 @@ nav {
   text-decoration: underline
 }
 
-.nav-colored { background-color:#000; }
-.nav-transparent { background-color:transparent;}
+.dummy {
+  position: absolute;
+  bottom: 0px;
+  width: 1px;
+  height: 1px;
+}
 
 section {
   margin-bottom: 50px
